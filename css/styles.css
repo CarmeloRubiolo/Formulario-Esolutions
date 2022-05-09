@@ -19,18 +19,22 @@ input, textarea, button{
     -moz-box-shadow: -7px 7px 5px -2px rgba(0,0,0,0.75);
     box-shadow: -7px 7px 5px -2px rgba(0,0,0,0.75);
 }
-.finalizar{
+.botones{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.finalizar button {
-    background-color: #04AA6D;
-    border-color: #04AA6D;
+.btn-terminar button {
+    background-color: #00bd78;
+    border-color: #00bd78;
     margin: 10px;
 }
-.finalizar button:hover {
+.btn-terminar button:hover {
     background-color: #026e46;
     border-color: #026e46;
+}
+.btn-reset{
+    height: 36px;
 }
 p {
     text-align: center;
